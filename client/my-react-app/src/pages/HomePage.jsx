@@ -9,27 +9,27 @@ import AppointmentCard from '../components/AppointmentCard';
 const sampleAppointments = [
   {
     id: 1,
-    patientName: 'John Doe',
-    doctorName: 'Dr. Sarah Smith',
+    patientName: 'ramanbhai Kataria',
+    doctorName: 'Dr. Sunil Batra',
     date: '2026-08-25',
     timeSlot: '10:00 AM',
     status: 'confirmed',
   },
   {
     id: 2,
-    patientName: 'Alice Johnson',
+    patientName: 'Prem Shah',
     doctorName: 'Dr. Raj Patel',
     date: '2026-08-26',
     timeSlot: '02:30 PM',
-    status: 'pending',
+    status: 'cancelled',
   },
   {
     id: 3,
-    patientName: 'Bob Martin',
-    doctorName: 'Dr. Priya Nair',
+    patientName: 'Nayan Shrimali',
+    doctorName: 'Dr. Shrimali Joshi',
     date: '2026-08-22',
     timeSlot: '11:00 AM',
-    status: 'cancelled',
+    status: 'pending',
   },
 ];
 

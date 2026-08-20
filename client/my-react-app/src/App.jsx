@@ -12,9 +12,7 @@ import BookingPage from './pages/BookingPage';
 function App() {
   return (
     <BrowserRouter>
-      {/* Navbar is rendered on every page */}
       <Navbar />
-
       {/* Route definitions */}
       <Routes>
         <Route path="/"        element={<HomePage />} />

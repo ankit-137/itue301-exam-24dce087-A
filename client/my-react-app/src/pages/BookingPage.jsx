@@ -13,7 +13,7 @@ import { useState } from 'react';
 
 // Available doctors list (will come from backend API in a later task)
 const DOCTORS = [
-  { id: 'doc1', name: 'Dr. Sarah Smith',  specialisation: 'Cardiology' },
+  { id: 'doc1', name: 'Dr. Sunil Sharma',  specialisation: 'Cardiology' },
   { id: 'doc2', name: 'Dr. Raj Patel',    specialisation: 'Neurology' },
   { id: 'doc3', name: 'Dr. Priya Nair',   specialisation: 'Dermatology' },
 ];
@@ -88,7 +88,7 @@ function BookingPage() {
             name="patientName"
             value={formData.patientName}
             onChange={handleChange}
-            placeholder="e.g. John Doe"
+            placeholder="Ankit Patel"
             required
             style={inputStyle}
           />
